@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+
+main {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.box {
+  border: 30px solid white;
+  text-align: center;
+  border-image-slice: 1;
+  border-image: linear-gradient(to right, #000000 0%, #2197FF 25%, #3617FF 50%, #2197FF 75%, #000000 100%);
+}
+
+div h1 {
+  font-size: 2em;
+  background: linear-gradient(to right, #000000 0%, #2197FF 25%, #3617FF 50%, #2197FF 75%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
